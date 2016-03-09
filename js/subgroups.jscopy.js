@@ -92,12 +92,23 @@ function addLoadEvent(func){
 }
 
 function jsCopy(id){
+  alert(id);
     var copyObj = $$(id);
-    copyObj.select();
-    document.execCommand("Copy"); // 执行浏览器复制命令
+    // copyObj.select();
+    // document.execCommand("Copy"); // 执行浏览器复制命令
+}
+
+function getAllJscopy(){
+    alert("11");
+    if(!document.getElementsByClassName) return;
+    var allObj = document.getElementsByClassName("jscopy");
+    for(var i=0; i<allObj.length; i++){
+        // allObj[i].onclick = test;
+    }
 }
 
 function test(obj){
   alert(obj.id);
-    alert("qq");
 }
+
+addLoadEvent(getAllJscopy);
