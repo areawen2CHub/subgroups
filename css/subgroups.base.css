@@ -619,7 +619,7 @@ ol.ualpha {list-style-type: upper-alpha}
 *h1,h2,h3,h4,h5,h6
 ****
 */
-h1, .h1 {
+/*h1, .h1 {
   font-size: 36px;
 }
 h2, .h2 {
@@ -636,7 +636,7 @@ h5, .h5 {
 }
 h6, .h6 {
   font-size: 12px;
-}
+}*/
 h1,h2,h3 {
   margin-top: 20px;
   margin-bottom: 10px;
@@ -645,6 +645,18 @@ h4,h5,h6 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+/*
+****
+*字体缩放
+****
+*/
+.big,big{
+	font-size: 1.25em;
+}
+.small,small{
+	font-size: 0.75em;
+}
+
 /*表格*/
 /*常用标准表格*/
 table.normal-used-table{
@@ -704,32 +716,9 @@ a{text-decoration: none;}
 a:hover{text-decoration: none;}
 a:active{text-decoration: none;}
 a:visited{text-decoration: none;}
-/*
-****
-*字体缩放
-*字体加粗
-****
-*/
-.strong,strong{
-	font-weight: 700;
-}
-.both{
-  font-weight: bold;
-}
-.big,big{
-	font-size: 1.25em;
-}
-.small,small{
-	font-size: 0.75em;
-}
-/*强调标签*/
-.em,em{
-	padding:0 5px 0 3px;
-	font-style: italic;
-	font-size: 110%;
-}
+
 /*字体大小*/
-.font-size-12{
+/*.font-size-12{
 	font-size: 12px;
 }
 .font-size-13{
@@ -740,22 +729,18 @@ a:visited{text-decoration: none;}
 }
 .font-size-15{
 	font-size: 15px;
-}
-/*上标字*/
-sub{}
-/*下标字*/
-sup{}
+}*/
 /*显示计算机/编程代码标签*/
 code, kbd, pre, samp {
     font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 }
-code {
+/*code {
     padding: 2px 5px;
     font-size: 90%;
     color: #C7254E;
     background-color: #F9F2F4;
     border-radius: 4px;
-}
+}*/
 kbd {
     padding: 2px 4px;
     font-size: 90%;
@@ -764,7 +749,7 @@ kbd {
     border-radius: 3px;
     box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25) inset;
 }
-pre {
+/*pre {
     display: block;
     padding: 9.5px;
     margin: 0px 0px 10px;
@@ -776,7 +761,7 @@ pre {
     background-color: #F5F5F5;
     border: 1px solid #CCC;
     border-radius: 4px;
-}
+}*/
 tt{}
 samp{}
 var{}
