@@ -2268,6 +2268,30 @@ span.list-read{
 .tit-aorise li a:hover{
     color: #f47e2f;
 }
+/*iworm类型*/
+.tit-iworm{
+	border:solid 1px #ddd;
+	background:#F8F8F8;
+}
+.tit-iworm  span{
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	display: inline-block;
+	border-right: solid 1px #ddd;
+	text-align: center;
+	font-size: 18px;
+	float: left;
+	color: #568ABC;
+}
+.tit-iworm h3{
+	margin: 0;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 0 0 12px;
+	display: inline-block;
+	font-size: 15px;
+}
 
 /*图片类型*/
 /*有框方形缩略图*/
